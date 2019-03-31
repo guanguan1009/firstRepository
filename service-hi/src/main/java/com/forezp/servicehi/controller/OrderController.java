@@ -14,6 +14,8 @@ public class OrderController {
         HashMap<String, String> map = new HashMap<>();
         map.put("orderNo", "RC0001");
         System.out.println("16");
+        System.out.println("1616");
+        System.out.println("1717");
         return map;
     }
 
