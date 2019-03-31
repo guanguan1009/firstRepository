@@ -4,12 +4,16 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.HashMap;
+
 @RestController
 public class OrderController {
 
     @GetMapping("/servicehi/orders")
     public Object getOrders(){
-        return null;
+        HashMap<String, String> map = new HashMap<>();
+        map.put("orderNo", "RC0001");
+        return map;
     }
 
 }
