@@ -13,6 +13,8 @@ public class OrderController {
     public Object getOrders(){
         HashMap<String, String> map = new HashMap<>();
         map.put("orderNo", "RC0001");
+        System.out.println("1616");
+        System.out.println("1717");
         return map;
     }
 
